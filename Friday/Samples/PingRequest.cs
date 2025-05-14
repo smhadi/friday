@@ -12,5 +12,7 @@ public class PingHandler : IRequestHandler<PingRequest, IResult>
     {
         await Task.CompletedTask;
         return Results.Ok($"Pong: {request.Message}");
+
+        //commemnt by hadi
     }
 }
